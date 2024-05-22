@@ -24,9 +24,28 @@
   /*memanggil file font eksternalnya di folder nexa*/
 }
 
+@font-face /*perintah untuk memanggil font eksternal*/
+  {
+  font-family: 'Azonix';
+
+  /*memberikan nama bebas untuk font*/
+
+  src: url('font/Azonix.otf');
+
+  /*memanggil file font eksternalnya di folder nexa*/
+}
+
+.logosko {
+  font-family: 'Azonix';
+}
+
+.bodycopy {
+  font-family: 'MADE TOMMY REG';
+}
+
 body {
   background-color: #f3f2ed;
-  font-family: 'MADE TOMMY REG';
+  font-family: 'MADE TOMMY THIN';
 }
 
 .navbar-fixed {
@@ -68,7 +87,7 @@ body {
 
 @media (min-width: 1280px) {
   #jumbotron {
-    font-size: 220px;
+    font-size: 200px;
   }
 }
 
