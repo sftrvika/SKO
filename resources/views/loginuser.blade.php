@@ -25,22 +25,22 @@
         <div class="flex-1 flex items-center justify-center p-8 bg-white">
             <div class="w-full max-w-md">
                 <h2 class="text-2xl font-bold text-center ">Welcome to SKO!</h2>
-                <h3 class="text-md font-light text-center mb-8">Log in Account</h3>
+                <h3 class="text-md font-normal text-center mb-8">Log in Account</h3>
                 <form class="space-y-4">
                     <div>
-                        <label for="email" class="block text-sm font-semibold text-gray-700">Email</label>
+                        <label for="email" class="block text-sm font-medium text-black">Email</label>
                         <input type="email" id="email"
                             class="mt-1 block w-full px-3 py-6 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                             placeholder="Enter your email">
                     </div>
                     <div>
-                        <label for="password" class="block text-sm font-semibold text-gray-700">Password</label>
+                        <label for="password" class="block text-sm font-medium text-black">Password</label>
                         <input type="password" id="password"
                             class="mt-1 block w-full px-3 py-6 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                             placeholder="Enter your password">
                     </div>
                     <div class="flex items-center justify-between">
-                        <a href="#" class="text-sm font-semibold text-indigo-600 hover:text-indigo-500">Forgot
+                        <a href="#" class="text-sm font-medium text-indigo-600 hover:text-indigo-500">Forgot
                             password?</a>
                     </div>
                     <div class="flex justify-center">
@@ -49,8 +49,8 @@
                             in</button>
                     </div>
                     <div class="text-center">
-                        <p class="text-sm text-gray-600">Are you new? <a href="#"
-                                class="font-semibold text-indigo-600 hover:text-indigo-500">Create an account</a></p>
+                        <p class="text-sm text-black">Are you new? <a href="#"
+                                class="font-medium text-indigo-600 hover:text-indigo-500">Create an account</a></p>
                     </div>
                 </form>
             </div>
