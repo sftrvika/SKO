@@ -14,3 +14,6 @@ Route::get('register', function () {
 Route::get('blog', function () {
     return view('blog');
 });
+Route::get('ourstory', function () {
+    return view('ourstory');
+});
