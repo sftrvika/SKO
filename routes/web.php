@@ -17,3 +17,9 @@ Route::get('blog', function () {
 Route::get('ourstory', function () {
     return view('ourstory');
 });
+Route::get('profile', function () {
+    return view('profile/profileuser');
+});
+Route::get('editprofile', function () {
+    return view('profile/editprofileuser');
+});

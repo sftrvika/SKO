@@ -10,9 +10,9 @@
 </head>
 
 
-<body class="bg-gray-100">
+<body class="bg-[#F8F7F3]">
     <!-- Start Navbar -->
-    @include('components.navbar',['color' => 'bg-white'])
+    @include('components.navbar',['color' => 'bg-[#F8F7F3]'])
     <!-- End Navbar -->
 
     <footer class="bg-[#3C4043] text-white pt-20 ">

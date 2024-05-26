@@ -53,7 +53,7 @@
         <!-- Start Profile Icon -->
         <div class="relative inline-block text-left">
             <button onclick="toggleDropdown('profileDropdown')" class="profile-button flex items-center focus:outline-none">
-                <img class="w-8 h-8 rounded-full" src="img/pp.png" alt="Profile">
+                <img class="w-8 h-8 rounded-full" src="img/logo.png" alt="Profile">
             </button>
             <!-- Dropdown menu -->
             <div id="profileDropdown" class="dropdown-content hidden absolute mt-5 w-80 max-w-40 rounded-md shadow-lg bg-white">
