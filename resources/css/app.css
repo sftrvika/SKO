@@ -48,6 +48,7 @@ body {
   font-family: 'MADE TOMMY REG';
 }
 
+
 .navbar-fixed {
   position: fixed;
   z-index: 9999;
@@ -77,6 +78,11 @@ body {
 
 #navbar-nav  a:hover::after {
   transform: scaleX(0.5);
+}
+
+.dropdown-content {
+      right: 0;
+      left: auto;
 }
 
 #jumbotron {
