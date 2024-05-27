@@ -43,7 +43,7 @@
                 </div>
             </form>
             <div class="flex justify-center py-4">
-                <button type="submit" id="btn-signup" form="signup-form"
+                <button type="button" id="btn-signup" form="signup-form"
                     class="flex justify-center w-3/4 py-5 px-4 border border-transparent rounded-md shadow-sm text-sm font-bold text-gray-700 bg-[#FFF3B5] hover:bg-gray-700 hover:text-[#FFF3B5] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Sign
                     Up</button>
             </div>
