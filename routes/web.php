@@ -3,12 +3,14 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\OurstoryController;
 use App\Http\Controllers\ShopController;
 use App\Http\Controllers\ProfileController;
 
 Route::group(['middleware' => 'guest'], function () {
     Route::get('/', [HomeController::class, 'index']);
     Route::get('/shop', [ShopController::class, 'shopView']);
+    Route::get('/ourstory', [OurstoryController::class, 'ourstoryView'])->name('ourstory');
     Route::get('/register', [AuthController::class, 'registerView'])->name('register');
     Route::post('/register', [AuthController::class, 'registerPost'])->name('register');
     Route::get('/login', [AuthController::class, 'loginView'])->name('login');
