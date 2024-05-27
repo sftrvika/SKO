@@ -7,14 +7,13 @@
 <body class="overflow-x-hidden">
 
   @section('navClass')
-  {{ ' w-full text-white ' . (isset($textColor) && $textColor === 'text-white' ? 'border-white' :
-  'border-[#3c4043]') }}
+  {{ ' w-full text-white'}}
   @endsection
 
   @section('content')
 
   <section class="bg-cover bg-center -z-50 w-screen h-screen flex justify-center items-center"
-    style="background-image: url('img/bg2.png');">
+    style="background-image: url('dist/img/bg2.png');">
     <h1 class="text-[50px] mb-4 text-white fonthin">OUR COMPANY STORY</h1>
   </section>
 

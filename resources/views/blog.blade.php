@@ -9,8 +9,7 @@
 <body class="bg-[#F8F7F3]">
 
     @section('navClass')
-    {{ ' w-full text-white ' . (isset($textColor) && $textColor === 'text-white' ? 'border-white' :
-    'border-[#3c4043]') }}
+    {{ 'bg-[#F8F7F3] w-full text-black ' }}
     @endsection
 
     <footer class="bg-[#3C4043] text-white pt-20 ">
