@@ -107,10 +107,8 @@
         </div>
     </nav>
     <!-- End Navbar -->
+
     @yield('content')
-    <!-- BEGIN: JS Assets-->
-    <script src="/dist/js/script.js"></script>
-    <!-- END: JS Assets-->
 
     <script>
         function toggleDropdown(dropdownId) {
