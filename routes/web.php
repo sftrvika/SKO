@@ -1,16 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\HomeController;
 
-Route::get('/', function () {
-    return view('home');
+Route::group(['middleware' => 'guest'], function () {
+    Route::get('/', [HomeController::class, 'index']);
+    Route::get('/register', [AuthController::class, 'registerView'])->name('register');
+    Route::post('/register', [AuthController::class, 'registerPost'])->name('register');
+    Route::get('/login', [AuthController::class, 'loginView'])->name('login');
+    Route::post('/login', [AuthController::class, 'loginPost'])->name('login');
 });
-Route::get('login', function () {
-    return view('login/login');
-});
-Route::get('register', function () {
-    return view('register/register');
-});
-Route::get('blog', function () {
-    return view('blog');
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/home', [HomeController::class, 'index']);
+    Route::delete('/logout', [AuthController::class, 'logout'])->name('logout');
 });

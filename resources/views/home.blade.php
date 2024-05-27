@@ -16,7 +16,7 @@
             tersedia.</p>
         <img class="mt-[50px] max-h-[900px]" src="dist/img/sepatu 1.png" alt="">
         <div class="hidden lg:block" id="shadow"></div>
-        <img class="hidden absolute h-[350px] mt-[-500px] ml-[950px] xl:block" src="img/sepatu 2.png" alt="">
+        <img class="hidden absolute h-[350px] mt-[-500px] ml-[950px] xl:block" src="dist/img/sepatu 2.png" alt="">
         <div class=" lg:mt-[-220px]">
             <a href="shop"><button
                     class="rounded-lg text-sm px-24 py-10 mx-auto flex justify-between items-center custom-btn btn-15 ">Shop

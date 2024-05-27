@@ -15,6 +15,7 @@
 
     <!-- BEGIN: CSS Assets-->
     @vite('resources/css/app.css')
+    @vite('resources/js/app.js')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css">
     <title>Document</title>
 </head>
