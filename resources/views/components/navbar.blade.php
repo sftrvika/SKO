@@ -4,6 +4,7 @@
         left: auto;
     }
 </style>
+<link rel="icon" type="image/png" href="img/Cmp3.png" />
 
 <!-- Start Navbar -->
 <nav class="navbar absolute z-50 {{ $color ?? 'bg-transparent' }} w-full {{ $textColor ?? 'text-black' }} py-4 lg:py-2 px-5">
@@ -86,7 +87,7 @@
             
         </div>
         <!-- End Profile Icon -->
- 
+        <script src="/js/script.js"></script>
         <script>
             function toggleDropdown(dropdownId) {
                 var dropdown = document.getElementById(dropdownId);

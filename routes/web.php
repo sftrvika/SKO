@@ -23,3 +23,9 @@ Route::get('profile', function () {
 Route::get('editprofile', function () {
     return view('profile/editprofileuser');
 });
+Route::get('shop', function () {
+    return view('shop');
+});
+Route::get('product', function () {
+    return view('product');
+});

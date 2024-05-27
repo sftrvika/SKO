@@ -13,7 +13,6 @@
             left: auto;
         }
     </style>
- <link rel="icon" type="image/png" href="img/CMp3.png" />
 </head>
 
 <body>
@@ -47,27 +46,6 @@
             <p class="text-gray-500">©SKO 2023. All rights reserved.</p>
         </div>
     </footer>
-
-    <script src="/js/script.js"></script>
-    <script>
-        function toggleDropdown(dropdownId) {
-            var dropdown = document.getElementById(dropdownId);
-            dropdown.classList.toggle('hidden');
-        }
-
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function(event) {
-            if (!event.target.matches('.profile-button') && !event.target.matches('.profile-button *')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                for (var i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (!openDropdown.classList.contains('hidden')) {
-                        openDropdown.classList.add('hidden');
-                    }
-                }
-            }
-        }
-    </script>
 </body>
 
 </html>
