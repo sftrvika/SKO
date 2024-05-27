@@ -4,8 +4,7 @@
 
 <body class="main">
     <!-- Start Navbar -->
-    <nav
-        class="navbar absolute z-50 {{ $color ?? 'bg-transparent' }} w-full {{ $textColor ?? 'text-black' }} py-4 lg:py-2 px-5">
+    <nav class="navbar absolute z-50 @yield('navClass', 'bg-transparent w-full text-black') py-4 lg:py-2 px-5">
         <div class="px-4 mx-auto items-center flex justify-between relative">
             <!-- Start Menu Button -->
             <div class="lg:hidden flex items-center">

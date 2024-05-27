@@ -6,9 +6,12 @@
 
 <body class="overflow-x-hidden">
 
+  @section('navClass')
+  {{ ' w-full text-white ' . (isset($textColor) && $textColor === 'text-white' ? 'border-white' :
+  'border-[#3c4043]') }}
+  @endsection
 
-  @section('content',['textColor' => 'text-white'])
-
+  @section('content')
 
   <section class="bg-cover bg-center -z-50 w-screen h-screen flex justify-center items-center"
     style="background-image: url('img/bg2.png');">
