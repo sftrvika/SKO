@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<main class="container-sm px-10 py-24">
+<main class="container-sm px-10 py-24 font-MadeTomy-Medium">
     <section class="mb-16">
         <h2 class="text-2xl font-semibold">Sepatu Compass</h2>
         <div class="flex flex-col md:flex-row justify-between gap-2">

@@ -2,26 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face /*perintah untuk memanggil font eksternal*/
-  {
-  font-family: 'MADE TOMMY THIN';
-
-  /*memberikan nama bebas untuk font*/
-
-  src: url('font/MADE Tommy Soft Thin PERSONAL USE.otf');
-
-  /*memanggil file font eksternalnya di folder nexa*/
+@font-face {
+    font-family: 'MadeTomy-Regular';
+    src: url('font/MADE TOMMY Regular_PERSONAL USE.otf') format("opentype");
 }
 
-@font-face /*perintah untuk memanggil font eksternal*/
-  {
-  font-family: 'MADE TOMMY REG';
+@font-face {
+    font-family: 'MadeTomy-Light';
+    src: url('font/MADE TOMMY Light_PERSONAL USE.otf') format("opentype");
+}
 
-  /*memberikan nama bebas untuk font*/
+@font-face {
+    font-family: 'MadeTomy-Bold';
+    src: url('font/MADE TOMMY Bold_PERSONAL USE.otf') format("opentype");
+}
 
-  src: url('font/MADE Tommy Soft Regular PERSONAL USE.otf');
+@font-face {
+    font-family: 'MadeTomy-ExtraBold';
+    src: url('font/MADE TOMMY ExtraBold_PERSONAL USE.otf') format("opentype");
+}
 
-  /*memanggil file font eksternalnya di folder nexa*/
+@font-face {
+    font-family: 'MadeTomy-Medium';
+    src: url('font/MADE TOMMY Medium_PERSONAL USE.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'MadeTomy-Thin';
+    src: url('font/MADE TOMMY Thin_PERSONAL USE.otf') format("opentype");
 }
 
 @font-face /*perintah untuk memanggil font eksternal*/
@@ -44,8 +52,8 @@
 }
 
 body {
-  background-color: #f3f2ed;
-  font-family: 'MADE TOMMY REG';
+  background-color: #F8F7F3;
+  @apply font-MadeTomy-Light;
 }
 
 
@@ -98,7 +106,7 @@ body {
 }
 
 #jumbotron{
-  font-family: 'MADE TOMMY THIN';
+  @apply font-MadeTomy-Thin;
 }
 
 #quote{
@@ -135,7 +143,7 @@ body {
 }
 
 .btn-15 {
-  background: #fff3b2;
+  background: #FFF3B2;
   opacity: 0.85;
   color: #000;
   z-index: 1;
