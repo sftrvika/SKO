@@ -6,7 +6,7 @@
 
 @section('content')
 
-<main class="container px-4 md:px-28 pt-36 text-[#3C4043]">
+<main class="container px-4 xl:px-28 pt-36 text-[#3C4043]">
   <div class="flex flex-wrap ">
     <!-- Left Column -->
     <div class="w-full lg:w-1/4 items-start">
